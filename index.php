@@ -262,15 +262,15 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-md-10 col-sm-12 col-12">
+                <div class="col-lg-9 col-md-10 col-sm-12 col-12">
                     <div class="row">
                         <div class="col-12">
                             <img class="w-100" src="image/homepage/hero-img.jpg" alt="">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-12">
+                        <div class="col-md-6 col-sm-6 col-12 pe-0">
                             <img class="w-100" src="image/homepage/hero-img2.jpg" alt="">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-12">
+                        <div class="col-md-6 col-sm-6 col-12 ps-0">
                             <img class="w-100" src="image/homepage/hero-img3.jpg " alt="">
                         </div>
                     </div>
@@ -278,9 +278,20 @@
 
 
 
-                <div class="col-lg-2 col-md-2 col-sm-12 col-12">
-                    <img class="w-100" src="image/homepage/hero-img3.jpg" alt="">
-
+                <div class="col-lg-3 col-md-2 col-sm-12 col-12">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-tabs bg-secondary">
+                            <li class="nav-item">
+                                <a class="nav-link .text-white-50" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link .text-white-50" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link .text-white-50" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
