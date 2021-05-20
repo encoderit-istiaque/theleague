@@ -1,0 +1,36 @@
+.time-schedule{
+    background: #333333;
+    color: #fff;
+}
+.default-color-white{
+    color: #fff;
+}
+.default-color-grey{
+    background: #DDDDDD;
+}
+.font-size{
+    font-size: 10px;
+}
+.mlb-carousel p{
+    margin: 0;
+    padding: 2px;
+}
+.mlb-carousel .time-schedule{
+    padding: 6px;
+}
+.fab{
+    color: #000;
+}
+.fas{
+    color: #000;
+}
+.fab:hover{
+    color: #FE074E;
+}
+.fas:hover{
+    color: #FE074E;
+}
+.nav-link:hover{
+    color: #FE074E;
+    border-bottom: 1px solid #FE074E;
+}
