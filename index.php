@@ -14,7 +14,7 @@
     <title>Homepage</title>
 </head>
 
-<body>
+<body class="default-color-grey">
     <!--Scroll Section Start-->
     <header class="bg-dark">
         <div class="container">
@@ -250,8 +250,9 @@
 
     </section>
     <!--Navbar End-->
+
     <!--Advertise Start -->
-    <section class="default-color-grey">
+    <section>
         <div class="container">
             <img class="mx-auto d-block py-3 w-80" src="image/homepage/advertise.jpg" alt="">
         </div>
@@ -262,15 +263,15 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-10 col-sm-12 col-12">
+                <div class="col-lg-8 col-md-10 col-sm-12 col-12">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 px-0">
                             <img class="w-100" src="image/homepage/hero-img.jpg" alt="">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-12 pe-0">
+                        <div class="col-md-6 col-sm-6 col-12 px-0">
                             <img class="w-100" src="image/homepage/hero-img2.jpg" alt="">
                         </div>
-                        <div class="col-md-6 col-sm-6 col-12 ps-0">
+                        <div class="col-md-6 col-sm-6 col-12 px-0">
                             <img class="w-100" src="image/homepage/hero-img3.jpg " alt="">
                         </div>
                     </div>
@@ -278,19 +279,270 @@
 
 
 
-                <div class="col-lg-3 col-md-2 col-sm-12 col-12">
+                <div class="col-lg-4 col-md-2 col-sm-12 col-12 bg-white">
                     <div class="col-lg-12">
-                        <ul class="nav nav-tabs bg-secondary">
-                            <li class="nav-item">
-                                <a class="nav-link .text-white-50" aria-current="page" href="#">Active</a>
+                        <ul class="nav nav-tabs bg-secondary justify-content-between" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link .text-white-50" href="#">Link</a>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link .text-white-50" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
                             </li>
                         </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -300,8 +552,621 @@
 
     </section>
 
-    <!--Hemoitems Start-->
+    <!--Soccer Start-->
+    <section>
+        <div class="container default-color-bg-white mt-3 border-bottom-1">
+            <div class="d-flex justify-content-between border-bottom-4 pt-2">
+                <span><a class="text-dark text-decoration-none fw-bold" href="#">SOCCER</a></span>
+                <span><a class="text-dark text-decoration-none fw-bold" href="#">MORE SOCCER</a></span>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-3">
+                    <img class="w-100" src="image/homepage/soccer-4.jpg" alt="">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                        </ol>
+                    </nav>
+                    <p class="fs-6 fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                    <p class="text-start fw-light">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                    <p class="fw-light">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                </div>
 
+                <div class="col-lg-3">
+                    <img class="w-100" src="image/homepage/soccer-2.jpg" alt="">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                        </ol>
+                    </nav>
+                    <p class="fs-6 fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                    <p class="text-start fw-light">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                    <p class="fw-light">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                </div>
+
+                <div class="col-lg-3">
+                    <img class="w-100" src="image/homepage/soccer-3.jpg" alt="">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                        </ol>
+                    </nav>
+                    <p class="fs-6 fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                    <p class="text-start fw-light">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                    <p class="fw-light">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                </div>
+
+                <div class="col-lg-3">
+                    <img class="w-100" src="image/homepage/soccer-4.jpg" alt="">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                        </ol>
+                    </nav>
+                    <p class="fs-6 fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                    <p class="text-start fw-light">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                    <p class="fw-light">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--More news strat-->
+    <section>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-3 px-0">
+                    <div class="default-color-bg-white me-2">
+                        <img class="w-100 px-0" src="image/homepage/soccer-4.jpg" alt="">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb px-2">
+                                <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                            </ol>
+                        </nav>
+                        <p class="fs-6 fw-bold px-2">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        <p class="text-start fw-light px-2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                        <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 px-0">
+                    <div class="default-color-bg-white me-2">
+                        <img class="w-100 px-0" src="image/homepage/soccer-4.jpg" alt="">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb px-2">
+                                <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                            </ol>
+                        </nav>
+                        <p class="fs-6 fw-bold px-2">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        <p class="text-start fw-light px-2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                        <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 px-0">
+                    <div class="default-color-bg-white me-2">
+                        <img class="w-100 px-0" src="image/homepage/soccer-4.jpg" alt="">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb px-2">
+                                <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                            </ol>
+                        </nav>
+                        <p class="fs-6 fw-bold px-2">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        <p class="text-start fw-light px-2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                        <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 px-0">
+                    <div class="default-color-bg-white me-1">
+                        <img class="w-100 px-0" src="image/homepage/soccer-4.jpg" alt="">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb px-2">
+                                <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                            </ol>
+                        </nav>
+                        <p class="fs-6 fw-bold px-2">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        <p class="text-start fw-light px-2">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil...</p>
+                        <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+    </section>
+    <!--More news end-->
+
+    <section>
+        <div class="container default-color-bg-white">
+            <div class="row">
+                <div>
+                    <div class="border-bottom-4 pt-2">
+                        <span><a class="text-dark text-decoration-none fw-bold" href="#">MORE NEWS</a></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <img class="w-100" src="image/homepage/mnews1.jpg" alt="">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb px-2">
+                                    <li class="breadcrumb-item"><a class="text-secondary text-decoration-none fw-bold" href="#">SOCCER</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">1 year ago</li>
+                                </ol>
+                            </nav>
+                            <p>Will Phoenix’s MLS expansion bid rise above the others?</p>
+                            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum...</p>
+                            <p class="fw-light px-2 pb-2">By <span><a class="text-decoration-none default-color-reddish fw-bold" href="#">The League Staff</a></span></p>
+                        </div>
+
+
+                    </div>
+                    <div class="col lg 12">
+                        <p class="border text-center p-3 "><a class="text-decoration-none fs-6 fw-bold" href="#">MORE POSTS</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-2 col-sm-12 col-12 bg-white">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-tabs bg-secondary justify-content-between" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="row">
+
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height py-1 mt-2" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0 mt-2">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <img class="w-100 aside-img-height  py-1" src="image/homepage/H-side1.jpg" alt="">
+
+                                    </div>
+                                    <div class="col-lg-8 p-0">
+                                        <div class="lh-sm pt-3">
+                                            <p class="mb-0">SOCCER</p>
+                                            <p class="pt-1">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="fw-bold fs-5 pt-3">CONTRIBUTER</p>
+                    <div class="row">
+                        <div class="col-lg-4 pt-3">
+                            <img class="rounded-circle" src="image/homepage/contributor1.jpg" alt="">
+                        </div>
+                        <div class="col-lg-8 pt-4">
+                            <p class="text-secondary fw-bold">The League Staff</p>
+                            <p class="fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        </div>
+
+                        <div class="col-lg-4 pt-3">
+                            <img class="rounded-circle" src="image/homepage/contributor2.jpg" alt="">
+                        </div>
+                        <div class="col-lg-8 pt-4">
+                            <p class="text-secondary fw-bold">The League Staff</p>
+                            <p class="fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        </div>
+
+                        <div class="col-lg-4 pt-3">
+                            <img class="rounded-circle" src="image/homepage/contributor3.jpg" alt="">
+                        </div>
+                        <div class="col-lg-8 pt-4">
+                            <p class="text-secondary fw-bold">The League Staff</p>
+                            <p class="fw-bold">Will Phoenix’s MLS expansion bid rise above the others?</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container">
+            <div>
+                <img class="mx-auto d-block " src="image/homepage/footer-logo.png" alt="">
+            </div>
+            <div class="text-center pt-3 fs-3 footer-social-icon">
+                <i class="fab fa-facebook-square pe-2"></i>
+                <i class="fab fa-twitter pe-2"></i>
+                <i class="fab fa-pinterest pe-2"></i>
+                <i class="fab fa-instagram pe-2"></i>
+                <i class="fab fa-google-plus-g pe-2"></i>
+                <i class="fab fa-youtube pe-2"></i>
+                <i class="fab fa-linkedin-in pe-2"></i>
+                <i class="fab fa-tumblr pe-2"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-border border-footer py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col lg 12">
+                    <ul class="nav justify-content-center d-flex footer-social-color">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Buy Theme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Scores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Football</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Baseball</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Soccer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Basketball</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hockey</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+        <p class="text-center pt-4 text-secondary">Copyright © 2021 The League Theme. Theme by MVP Themes, powered by WordPress.</p>
+
+        </div>
+    </section>
 
 
 

@@ -5,6 +5,22 @@
 .default-color-white{
     color: #fff;
 }
+.default-color-bg-white{
+    background: #fff;
+}
+.default-color-reddish{
+    color: #FE074E;
+}
+.footer-social-icon i{
+    color: #999999;
+}
+.footer-social-color a{
+    color: #999999;
+}
+.border-footer{
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
 .default-color-grey{
     background: #DDDDDD;
 }
@@ -34,6 +50,6 @@
     color: #FE074E;
     border-bottom: 1px solid #FE074E;
 }
-.nav-tabs{
-    background: #fff;
+.aside-img-height{
+    height: 100px;
 }
