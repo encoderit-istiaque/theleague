@@ -254,7 +254,15 @@
     <!--Advertise Start -->
     <section>
         <div class="container">
-            <img class="mx-auto d-block py-3 w-80" src="image/homepage/advertise.jpg" alt="">
+        <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                    <img class="mx-auto d-block py-3 w-100" src="image/homepage/advertise.jpg" alt="">
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
         </div>
     </section>
     <!--Advertise End -->
@@ -1072,7 +1080,7 @@
                         </div>
                     </div>
                     <p class="fw-bold fs-5 pt-3">CONTRIBUTER</p>
-                    <div class="row">
+                    <div class="row sticky">
                         <div class="col-lg-4 pt-3">
                             <img class="rounded-circle" src="image/homepage/contributor1.jpg" alt="">
                         </div>
@@ -1160,7 +1168,7 @@
 
         </div>
     </section>
-    
+
     <section>
         <div class="container">
         <p class="text-center pt-4 text-secondary">Copyright © 2021 The League Theme. Theme by MVP Themes, powered by WordPress.</p>

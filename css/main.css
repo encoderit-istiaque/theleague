@@ -11,6 +11,12 @@
 .default-color-reddish{
     color: #FE074E;
 }
+.default-color-grey-color{
+    color: #999999;
+}
+.default-bg-color-reddish{
+    background: #FE074E;
+}
 .footer-social-icon i{
     color: #999999;
 }
@@ -52,4 +58,15 @@
 }
 .aside-img-height{
     height: 100px;
+}
+.circle-img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+@media (max-width: 767px) { 
+    .display-media{
+        display: none;
+    }
+
 }
